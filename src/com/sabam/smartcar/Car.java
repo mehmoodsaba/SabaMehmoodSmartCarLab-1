@@ -22,7 +22,7 @@ public class Car {
 
 	}
 	
-	
+	// The methods indicate various functions a car can do
 	
 
 	/**
