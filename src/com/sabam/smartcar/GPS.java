@@ -8,6 +8,6 @@ public class GPS extends Sensor {
 	
 	public void route() {}
 	
-	
+// indicates the current position and route of the car	
 
 }

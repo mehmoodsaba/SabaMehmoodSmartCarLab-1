@@ -19,5 +19,6 @@ public class Camera {
 	public int numberofcameras() {
 		return 3;
 	}
-
+// indicate multi-media processing that would be used to detect
+// traffic pattern and traffic light to ensure the car drives correctly	
 }

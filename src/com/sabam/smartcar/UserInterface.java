@@ -17,6 +17,8 @@ public class UserInterface {
 	
 	// gps is float since it calculates the longitude and latitude
 	// to give position
+	//user interface communicates with the driver and gives info
+	//regarding car
 	
 	
 	

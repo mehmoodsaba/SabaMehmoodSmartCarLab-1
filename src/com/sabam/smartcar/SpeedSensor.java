@@ -10,5 +10,7 @@ package com.sabam.smartcar;
 public class SpeedSensor extends Sensor {
 	
 	private int speed;
+	
+	
 
 }

@@ -15,5 +15,5 @@ public class Gyroscope extends Sensor {
 	public void detectmovement() {}
 	public void stablization() {}
 	
-
+// helps to detect movement of the car and ensures stability
 }

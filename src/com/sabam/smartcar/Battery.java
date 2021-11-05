@@ -20,6 +20,6 @@ public class Battery {
 	public int numberofbattery() {
 		return 2;
 	}
-
+// methods indicate the number of batteries and their charging
 	
 }

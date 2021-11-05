@@ -14,5 +14,6 @@ public class Sonar extends Sensor {
 	public void detectsounds() {}
 	public void detectobjects() {}
 	
+// helps to detect sounds and object to ensure safe driving environment
 
 }

@@ -10,5 +10,5 @@ package com.sabam.smartcar;
 public class BrakeSensor extends Sensor {
 	
 	private int type;
-
+// barake sensor senses the brake of the car
 }
