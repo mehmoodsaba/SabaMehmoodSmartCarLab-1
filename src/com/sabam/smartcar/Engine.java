@@ -15,6 +15,7 @@ public class Engine {
 	public void start() {}
 	public void brake() {}
 	public void accelerate() {}
+	public void decelerate() {}
 	
 	//indicate methods that include acceleration, brake and start of 
 	//the car

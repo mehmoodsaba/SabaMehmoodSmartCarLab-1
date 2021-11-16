@@ -14,6 +14,7 @@ public class UserInterface {
 	
 	public float speed() { return odometer;}
 	public float position() {return gps;}
+	public void display () {}
 	
 	// gps is float since it calculates the longitude and latitude
 	// to give position
