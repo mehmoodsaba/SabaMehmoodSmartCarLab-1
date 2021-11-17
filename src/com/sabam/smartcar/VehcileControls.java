@@ -18,9 +18,10 @@ public class VehcileControls {
 	public void acceleratecar() {}
 	public void deceleratecar() {}
 	public void changelane() {}
-	public void stabilizecar() {}
 	public void maintainlane() {}
 	public void lanecentering() {}
+	public void changedirection() {}
+	public void keeplane() {}
 	
 
 }

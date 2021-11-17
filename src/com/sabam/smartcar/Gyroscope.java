@@ -13,7 +13,7 @@ public class Gyroscope extends Sensor {
 	private int densityofrotor;
 	
 	public void detectmovement() {}
-	public void stablization() {}
+	public void stablizecar() {}
 	
 // helps to detect movement of the car and ensures stability
 }

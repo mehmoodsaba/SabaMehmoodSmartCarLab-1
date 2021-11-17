@@ -14,6 +14,10 @@ public class LiDar extends Sensor {
 	
 	public void collisionavoidance() {}
 	public void environmentscanning() {}
+	public void collisiondetection() {}
+	public void objectavoidance() {}
+	public void crashdetection() {}
+	public void crashavoidance() {}
 	
 	//measures distance between objects to ensure collision avoidance
 
