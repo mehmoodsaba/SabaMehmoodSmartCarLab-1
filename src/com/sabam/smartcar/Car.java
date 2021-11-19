@@ -14,13 +14,19 @@ public class Car implements SelfCheckCapable {
 	
 	private String make;
 	private String model;
-	private String RegNumber;
+	private int RegNumber;
+	private Camera picture;
+	
 	
 	public Car() {
-		make = new String();
-		model = new String();
-		RegNumber = new String();	
-		
+		make = "Nissan";
+		model = "Sentra";
+		RegNumber = 0;
+		int shutterspeed=10; 
+		float aperture=(float) 9.5;
+		int depthoffield=17;
+		picture= new Camera(shutterspeed,aperture,depthoffield);
+	
 	}
 	
 	public void goforward() { }

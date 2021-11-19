@@ -12,5 +12,6 @@ public class SpeedSensor extends Sensor {
 	private int speed;
 	
 	
+	
 
 }

@@ -14,6 +14,7 @@ public class Transmission {
 	private String gear;
 	private float speed;
 	
+	
 	public void movecar() {}
 	public String changegear() {
 		return gear; }

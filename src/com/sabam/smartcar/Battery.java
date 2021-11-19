@@ -13,6 +13,8 @@ public class Battery {
 	private String type;
 	private float capacity;
 	
+	
+
 	public double charging() {
 		return voltage;
 	}

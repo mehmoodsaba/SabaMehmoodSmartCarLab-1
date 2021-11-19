@@ -7,10 +7,12 @@ package com.sabam.smartcar;
  * @author Saba
  *
  */
-public class VehcileControls {
+public class VehicleControls {
 	
 	private float rateofcontrol;
 	private float direction;
+	
+	
 	
 	public void applybrake() {}
 	public void applygas() {}

@@ -13,6 +13,11 @@ public class Camera {
 	private float aperture;
 	private int depthoffield;
 	
+	public Camera(int shutterspeed, float aperture, int depthoffield) {
+		this.shutterspeed= shutterspeed;
+		this.aperture= aperture;
+		this.depthoffield= depthoffield;
+	}
 	public void multimediaprocessing() {
 	}
 	

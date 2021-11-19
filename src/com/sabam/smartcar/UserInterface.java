@@ -12,6 +12,8 @@ public class UserInterface {
 	private float odometer;
 	private String collisioncontrol;
 	
+  
+	
 	public float speed() { return odometer;}
 	public float position() {return gps;}
 	public void display () {}

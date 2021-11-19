@@ -12,6 +12,8 @@ public class Gyroscope extends Sensor {
 	private float spinrate;
 	private int densityofrotor;
 	
+	
+	
 	public void detectmovement() {}
 	public void stablizecar() {}
 	
