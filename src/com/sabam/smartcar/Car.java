@@ -15,7 +15,7 @@ public class Car implements SelfCheckCapable {
 	private String make;
 	private String model;
 	private int RegNumber;
-	private Camera picture;
+	private Camera pictures;
 	
 	
 	public Car() {
@@ -25,7 +25,7 @@ public class Car implements SelfCheckCapable {
 		int shutterspeed=10; 
 		float aperture=(float) 9.5;
 		int depthoffield=17;
-		picture= new Camera(shutterspeed,aperture,depthoffield);
+		pictures= new Camera(shutterspeed,aperture,depthoffield);
 	
 	}
 	
@@ -67,7 +67,7 @@ public class Car implements SelfCheckCapable {
 	@Override
 	public boolean runSelfCheck() {
 		// TODO Auto-generated method stub
-		return SelfCheckUtils.checkComponents(this, picture);
+		return SelfCheckUtils.checkComponents(this, pictures);
 	}
 
 }

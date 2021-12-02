@@ -15,13 +15,13 @@ public class Camera implements SelfCheckCapable{
 	private int shutterspeed;
 	private float aperture;
 	private int depthoffield;
-	private VehicleControls vehiclecontrols;
+	private VehicleControls vehiclecontrol;
 	
 	public Camera(int shutterspeed, float aperture, int depthoffield) {
 		this.shutterspeed= shutterspeed;
 		this.aperture= aperture;
 		this.depthoffield= depthoffield;
-		vehiclecontrols= new VehicleControls();
+		vehiclecontrol= new VehicleControls();
 	}
 	public void multimediaprocessing() {
 	}
@@ -44,6 +44,6 @@ public class Camera implements SelfCheckCapable{
 	@Override
 	public boolean runSelfCheck() {
 		// TODO Auto-generated method stub
-		return SelfCheckUtils.checkComponents(this, vehiclecontrols);
+		return SelfCheckUtils.checkComponents(this, vehiclecontrol);
 	}
 }
