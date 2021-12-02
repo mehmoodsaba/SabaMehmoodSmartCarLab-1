@@ -67,7 +67,7 @@ public class Car implements SelfCheckCapable {
 	@Override
 	public boolean runSelfCheck() {
 		// TODO Auto-generated method stub
-		return SelfCheckUtils.basicSelfCheckRunner(this);
+		return SelfCheckUtils.checkComponents(this, picture);
 	}
 
 }
